@@ -1,0 +1,103 @@
+body{
+   /* background-color:blueviolet; */
+   display: flex;
+   justify-content: center;
+}
+
+.container{
+    height:570px;
+    width:1200px;
+    border: 2px solid black;
+    border-radius:10px;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+#SidePage{
+    height:570px;
+    width: 500px;
+    background-color: lightgreen;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    font-size: larger;
+    color:white;
+}
+
+#LogInPage{
+    height:570px;
+    width: 700px;
+    border-radius: 0px 10px 10px 0px;
+   
+}
+
+#SignIn{
+    border-radius:30px;
+    font-size: 12px;
+    padding: 20px;
+    padding-left:65px;
+    padding-right:65px;
+    line-height: 10px;
+    margin-left: 120px; 
+    margin-top: 35px;
+}
+
+h1{
+    margin-left: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+pre{
+    margin-left:50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.Account{
+    margin-top: 70px;
+} 
+
+.Account h1{
+    font-size: 45px;
+    color: green;
+    margin-left: 200px;
+    margin-top:50px;
+}
+
+.inputs{
+    height:300px;
+    /* border: 1px solid black; */
+    margin-left:130px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column; /* rows banata hai */
+    gap: 10px;              /* har input ke darmiyan space */
+    width: 400px;
+    
+}
+  
+.inputs input {
+  padding: 15px;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.inputs button{
+    margin-top:30px;
+    margin-left:130px;
+    border-radius:30px;
+    font-size: 12px;
+    padding: 18px;
+    width: 150px;
+    line-height: 8px;
+}
+

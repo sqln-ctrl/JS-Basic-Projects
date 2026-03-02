@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightblue; 
+}
+
+.container {
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f0a500;  
+}
+
+.container * {
+    margin: 4px 0;
+}
+
+
+
